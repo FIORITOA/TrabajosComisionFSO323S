@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/**
+color de fondo
+*/
+
+header{
+    background-color: rgb(227, 240, 250);
+}
+
+/** 
+font-family: 'Dancing Script', cursive;
+*/
+
+.fuente-titulo{
+    font-family: 'Dancing Script', cursive;
+}
+
+/**
+colores distintivos
+*/
+.proyecto-color{
+    color: #ff00a6;
+
+}
+
+.parrafo-color{
+    color: blue;
+}
+
+.todo-color{
+    color: green;
+
+}
+
+
+/**
+misma fuente en la section
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Oswald&display=swap');
+
+/**
+font-family: 'Dancing Script', cursive;
+font-family: 'Oswald', sans-serif;
+*/
+
+.fuente-opciones{
+
+font-family: 'Dancing Script', cursive;
+font-family: 'Oswald', sans-serif;
+}
+
+/**
+se reiteran colores en el main
+*/
+
+.hoteles-color{
+    color: #ff00a6 
+
+}
+
+.viviendas-color{
+    color: blue;
+
+}
+
+.urbanizaciones-color{
+    color: green;
+
+}
+
+.volver-color{
+    color: red;
+}
