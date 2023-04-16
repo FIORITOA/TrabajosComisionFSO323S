@@ -11,8 +11,13 @@ color de fondo
 */
 
 header{
+
+    display: flex;
+    justify-content:space-between ;
     background-color: rgb(227, 240, 250);
 }
+
+
 
 /** 
 font-family: 'Dancing Script', cursive;
@@ -30,7 +35,7 @@ colores distintivos
 
 }
 
-.parrafo-color{
+.Acerca-de-color{
     color: blue;
 }
 
