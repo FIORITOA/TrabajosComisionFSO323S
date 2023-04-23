@@ -6,15 +6,22 @@
     box-sizing: border-box;
 }
 
+html{
+    font-size: 62.5%;
+}
+body{
+    height: 100vh;
+}
+
 /**
 color de fondo
 */
 
 header{
-
+    
     display: flex;
     justify-content:space-between ;
-    background-color: rgb(227, 240, 250);
+    background-color: white;
 }
 
 
@@ -25,23 +32,67 @@ font-family: 'Dancing Script', cursive;
 
 .fuente-titulo{
     font-family: 'Dancing Script', cursive;
+font-family: 'Oswald', sans-serif;
+   
 }
+
+
+.fuente-opciones{
+
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Oswald', sans-serif;
+    }
+    
+    /**
+    se reiteran colores en el main
+    */
+    
+    .hoteles-color{
+        color: black;
+    
+    }
+    
+    .viviendas-color{
+        color: black;
+    
+    }
+    
+    .urbanizaciones-color{
+        color:black;
+    
+    }
+    
+    .volver-color{
+        color: red;
+    }
+
+    .class-items{
+        list-style: none;
+    }
 
 /**
 colores distintivos
 */
-.proyecto-color{
-    color: #ff00a6;
-
-}
-
 .Acerca-de-color{
-    color: blue;
+    color: black;
+
+
 }
 
-.todo-color{
-    color: green;
+.Proyecto-color{
+    color: black;
+}
 
+.galeria-color{
+    color: black;
+
+}
+.contacto-color{
+    color: red;
+
+}
+.class-data{
+    list-style: none
 }
 
 
@@ -56,31 +107,51 @@ font-family: 'Dancing Script', cursive;
 font-family: 'Oswald', sans-serif;
 */
 
-.fuente-opciones{
-
-font-family: 'Dancing Script', cursive;
-font-family: 'Oswald', sans-serif;
+.section-principal{
+   
+   background-image: url(../assets/proyecto.jpg);
+   width:100%;
+   background-position:100%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   ;
+   
+   
 }
 
-/**
-se reiteran colores en el main
-*/
-
-.hoteles-color{
-    color: #ff00a6 
-
-}
-
-.viviendas-color{
-    color: blue;
+.verano{
+    border: 2px solid black;
+    height: 275px;
+    width: 225px;
+    margin:50px 10px ;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px black;
+    align-content: center;
+    background-color:blue;
 
 }
 
-.urbanizaciones-color{
-    color: green;
 
+
+.titulo-principal{
+    color: black;
 }
 
-.volver-color{
-    color: red;
+.card-image{
+    height:90px ;
+    width: 90px;
+    object-fit: cover;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   margin-left: 50px;
+   
+}
+
+
+.soñar{
+    border: 1px solid black;
+    height: 250px;
+    width:  200px;
+    margin-left: 10px;
+    
 }
