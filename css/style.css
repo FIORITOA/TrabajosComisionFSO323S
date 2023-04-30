@@ -22,6 +22,7 @@ header{
     display: flex;
     justify-content:space-between ;
     background-color: white;
+    align-self: 10px;
 }
 
 
@@ -33,6 +34,8 @@ font-family: 'Dancing Script', cursive;
 .fuente-titulo{
     font-family: 'Dancing Script', cursive;
 font-family: 'Oswald', sans-serif;
+font-size: 2.5rem;
+font-weight: bolder;
    
 }
 
@@ -41,11 +44,14 @@ font-family: 'Oswald', sans-serif;
 
     font-family: 'Dancing Script', cursive;
     font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
+    gap: 1rem;
     }
     
     /**
     se reiteran colores en el main
     */
+    
     
     .hoteles-color{
         color: black;
@@ -68,6 +74,14 @@ font-family: 'Oswald', sans-serif;
 
     .class-items{
         list-style: none;
+        display: flex;
+    }
+
+    .class-data{
+        list-style: none;
+        display: flex;
+        font-size: 2.5rem;
+        gap: 1rem;
     }
 
 /**
@@ -113,45 +127,107 @@ font-family: 'Oswald', sans-serif;
    width:100%;
    background-position:100%;
    background-repeat: no-repeat;
+   background-image: none;
    background-size: cover;
-   ;
    
-   
+   }
+    
+.contenedor{
+    height: auto;
+    width: 100%;
+    position: absolute;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    
 }
+.titulo-principal{
+        color: black;
+        
+       
+       
+ }
 
-.verano{
+ .text{
+    color: black;
+    margin-top: 10%;
+    
+ }
+
+.tarjeta-verano{
+    
     border: 2px solid black;
     height: 275px;
     width: 225px;
     margin:50px 10px ;
-    background-color: white;
     box-shadow: 5px 5px 5px 5px black;
     align-content: center;
-    background-color:blue;
-
+    overflow: hidden;
+    background:white
+    
+    
 }
 
 
-
-.titulo-principal{
-    color: black;
-}
 
 .card-image{
-    height:90px ;
-    width: 90px;
+    height:175px ;
+    width: 225px;
     object-fit: cover;
-   margin-top: 50px;
-   margin-bottom: 50px;
-   margin-left: 50px;
    
 }
 
 
-.soñar{
-    border: 1px solid black;
-    height: 250px;
-    width:  200px;
-    margin-left: 10px;
+.tarjeta-soñar{
+    border: 2px solid black;
+    height: 275px;
+    width:  225px;
+    margin: 50px 10px;
+    box-shadow: 5px 5px 5px 5px black;
+    align-content: center;
+    overflow: hidden;
+    background:white
+   
     
+    
+}
+
+.card-image1{
+    height: 175px;
+    width:225px ;
+    object-fit: cover;
+}
+
+.titulo-card2{
+    color: black;
+}
+
+.text-soñar{
+    color: black;
+    margin-top: 10px;
+}
+
+.tarjeta-realidad{
+    border: 2px solid black;
+    height: 275px;
+    width:  225px;
+    margin: 50px 10px;
+    box-shadow: 5px 5px 5px 5px black;
+    align-content: center;
+    overflow: hidden;
+    background:white
+}
+.card-image2{
+    height: 175px;
+    width:225px ;
+    object-fit: cover;
+}
+
+.titulo-card3{
+    color: black;
+}
+
+.text-realidad{
+    color: black;
+    margin-top: 10px;
 }
